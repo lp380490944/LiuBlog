@@ -8,11 +8,16 @@ $(document).ready(function () {
 
   NexT.utils.lazyLoadPostsImages();
 
+<<<<<<< HEAD
   NexT.utils.registerESCKeyEvent();
 
   NexT.utils.registerBackToTop();
 
   // Mobile top menu bar.
+=======
+  NexT.utils.registerBackToTop();
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   $('.site-nav-toggle button').on('click', function () {
     var $siteNav = $('.site-nav');
     var ON_CLASS_NAME = 'site-nav-on';
@@ -25,6 +30,7 @@ $(document).ready(function () {
     });
   });
 
+<<<<<<< HEAD
   /**
    * Register JS handlers by condition option.
    * Need to add config option in Front-End at 'layout/_partials/head.swig' file.
@@ -32,6 +38,10 @@ $(document).ready(function () {
   CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
   CONFIG.tabs && NexT.utils.registerTabsTag();
 
+=======
+
+  CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   NexT.utils.embeddedVideoTransformer();
   NexT.utils.addActiveClassToMenuItem();
 

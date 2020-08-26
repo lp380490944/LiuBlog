@@ -2,25 +2,38 @@ title:
   archive: Архив
   category: Категория
   tag: Тэг
+<<<<<<< HEAD
   schedule: Календарь
 
 author: Автор
 
 menu:
   home: Главная
+=======
+
+author: Author
+
+menu:
+  home: Домой
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   archives: Архив
   categories: Категории
   tags: Тэги
   about: О сайте
+<<<<<<< HEAD
   search: Поиск
   schedule: Календарь
   sitemap: Карта сайта
+=======
+  search: поиск
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 sidebar:
   overview: Обзор
   toc: Содержание
 
 post:
+<<<<<<< HEAD
   created: Дата создания записи
   modified: Дата обновления записи
   sticky: Ссылка
@@ -39,6 +52,14 @@ post:
     license_title: Информация об авторских правах
     license_content: 'Все записи на этом сайте защищены лицензией
       <a href="%s" rel="external nofollow" target="_blank">%s</a> если не указано дополнительно.'
+=======
+  sticky: Sticky
+  posted: отправлено
+  in: в
+  read_more: Читать дальше
+  untitled: Без имени
+  toc_empty: Этот пост не имеет оглавления
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 page:
   totally: Всего
@@ -50,6 +71,7 @@ footer:
 
 counter:
   tag_cloud:
+<<<<<<< HEAD
     zero: Нет тэгов.
     one: 1 тэг.
     two: "%d тэга всего."
@@ -64,6 +86,22 @@ counter:
     three: "%d категории всего."
     four: "%d категории всего."
     other: "%d категорий всего."
+=======
+    zero: Нет тэгов
+    one: 1 тэг
+    two: "%d тэга всего"
+    three: "%d тэга всего"
+    four: "%d тэга всего"
+    other: "%d тэгов всего"
+
+  categories:
+    zero: Нет категорий
+    one: 1 категория
+    two: "%d категории всего"
+    three: "%d категории всего"
+    four: "%d категории всего"
+    other: "%d категорий всего"
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   archive_posts:
     zero: Нет записей.
@@ -74,6 +112,7 @@ counter:
     other: "%d записей всего."
 
 state:
+<<<<<<< HEAD
   posts: Архив
   pages: Страницы
   tags: Тэги
@@ -81,6 +120,12 @@ state:
 
 search:
   placeholder: Поиск...
+=======
+  posts: записи
+  pages: страницы
+  tags: тэги
+  categories: категории
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 cheers:
   um: Эм..
@@ -95,4 +140,7 @@ keep_on: Продолжаю писать.
 symbol:
   comma: ', '
   period: '. '
+<<<<<<< HEAD
   colon: ':'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fs = require('fs')
 path = require('path')
 gulp = require('gulp')
@@ -5,19 +6,29 @@ jshint = require('gulp-jshint')
 stylish = require('jshint-stylish')
 shell   = require('gulp-shell')
 yaml = require('js-yaml')
+=======
+gulp = require('gulp')
+jshint = require('gulp-jshint')
+stylish = require('jshint-stylish')
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 gulp.task 'lint', ->
   return gulp.src([
     './source/js/src/utils.js',
     './source/js/src/motion.js',
+<<<<<<< HEAD
     './source/js/src/hook-duoshuo.js',
     './source/js/src/algolia-search.js',
+=======
+    './source/js/src/hook-duoshuo.js'
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     './source/js/src/bootstrap.js',
     './source/js/src/post-details.js',
     './source/js/src/schemes/pisces.js'
   ]).pipe jshint()
     .pipe jshint.reporter(stylish)
 
+<<<<<<< HEAD
 gulp.task 'lint:stylus', shell.task [
   '"./node_modules/.bin/stylint" ./source/css/'
 ]
@@ -52,3 +63,7 @@ gulp.task 'validate:languages', (cb) ->
 
 
 gulp.task 'default', ['lint', 'validate:config', 'validate:languages']
+=======
+
+gulp.task 'default', ['lint']
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

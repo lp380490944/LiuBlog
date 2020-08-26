@@ -1,7 +1,11 @@
 .header {
   position: relative;
   margin: 0 auto;
+<<<<<<< HEAD
   width: $main-desktop;
+=======
+  width: 960px;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   +tablet() {
     width: auto;
@@ -18,8 +22,11 @@
   padding: 0;
   width: 240px;
   background: white;
+<<<<<<< HEAD
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   +desktop-large() {
     .container & { width: 240px; }
@@ -27,12 +34,18 @@
   +tablet() {
     position: relative;
     width: auto;
+<<<<<<< HEAD
     border-radius: initial;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
   +mobile() {
     position: relative;
     width: auto;
+<<<<<<< HEAD
     border-radius: initial;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 }
 
@@ -64,19 +77,28 @@
   width: $content-desktop;
   background: white;
   min-height: 700px;
+<<<<<<< HEAD
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   +tablet() {
     width: 100%;
     padding: 20px;
+<<<<<<< HEAD
     border-radius: initial;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
   +mobile() {
     width: 100%;
     padding: 20px;
     min-height: auto;
+<<<<<<< HEAD
     border-radius: initial;
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 }
 
@@ -85,7 +107,11 @@
   float: left;
   margin-top: 300px;
   width: $sidebar-desktop;
+<<<<<<< HEAD
   background: $body-bg-color;
+=======
+  background: white;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   box-shadow: none;
 
   +tablet() {
@@ -101,6 +127,7 @@
 
 .footer-inner {
   width: $main-desktop;
+<<<<<<< HEAD
   padding-left: 260px;
 
   +tablet() {
@@ -112,6 +139,25 @@
     width: auto;
     padding-left: 0 !important;
     padding-right: 0 !important;
+=======
+
+  &:before {
+    content: " ";
+    float: left;
+    width: 260px;
+    min-height: 50px;
+  }
+
+  +tablet() {
+    width: auto;
+
+    &:before { display: none; }
+  }
+  +mobile() {
+    width: auto;
+
+    &:before { display: none; }
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 }
 
@@ -122,9 +168,13 @@
   .content-wrap { float: left; }
   .sidebar { float: right; }
 
+<<<<<<< HEAD
   .footer-inner {
     padding-left: 0;
     padding-right: 260px;
   }
+=======
+  .footer-inner:before { float: right; }
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 }
 

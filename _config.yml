@@ -5,6 +5,7 @@
 # Site
 title: 钟灵毓秀
 subtitle: 刘攀的博客
+<<<<<<< HEAD
 description: 爱编程，爱晚起，偶尔也忙到深夜/n
              喜欢学习，努力工作，也享受生活/n
              我酷爱技术，崇尚简单的快乐和幸福/n
@@ -12,6 +13,11 @@ description: 爱编程，爱晚起，偶尔也忙到深夜/n
              我和你一样，为理想而奋斗
 author: Bluce Liu
 language: zh-Hans
+=======
+description: 专注于技术分享
+author: Bluce Liu
+language: zh-CN
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 timezone:
 
 # URL
@@ -32,9 +38,15 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
+<<<<<<< HEAD
 new_post_name: year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: true # Transform title into titlecase
+=======
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
@@ -48,7 +60,11 @@ highlight:
   tab_replace:
 
 # Category & Tag
+<<<<<<< HEAD
 default_category: iOS
+=======
+default_category: uncategorized
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 category_map:
 tag_map:
 
@@ -69,10 +85,18 @@ pagination_dir: page
 Plugins: hexo-deployer-git
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-next
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/lp380490944/lp380490944.github.io.git
   branch: master
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

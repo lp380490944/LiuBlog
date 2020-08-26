@@ -2,7 +2,10 @@ title:
   archive: 歸檔
   category: 分類
   tag: 標籤
+<<<<<<< HEAD
   schedule: 日程表
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 author: 博主
 
@@ -13,15 +16,20 @@ menu:
   tags: 標籤
   about: 關於
   search: 檢索
+<<<<<<< HEAD
   schedule: 日程表
   sitemap: 站點地圖
   commonweal: 公益404
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 sidebar:
   overview: 本站概覽
   toc: 文章目錄
 
 post:
+<<<<<<< HEAD
   created: 創建於
   modified: 更新於
   sticky: 置頂
@@ -39,6 +47,15 @@ post:
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
+=======
+  sticky: 置頂
+  posted: 發表於
+  in: 分類於
+  visitors: 閱讀次數
+  read_more: 閱讀全文
+  untitled: 未命名
+  toc_empty: 此文章未包含目錄
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 page:
   totally: 共有
@@ -48,6 +65,10 @@ footer:
   powered: "由 %s 強力驅動"
   theme: 主題
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 counter:
   tag_cloud:
     zero: 暫無標籤
@@ -70,9 +91,12 @@ state:
   tags: 標籤
   categories: 分類
 
+<<<<<<< HEAD
 search:
   placeholder: 搜索...
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 cheers:
   um: 嗯..
   ok: OK
@@ -86,4 +110,7 @@ keep_on: 繼續努力。
 symbol:
   comma: '， '
   period: '。 '
+<<<<<<< HEAD
   colon: '：'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

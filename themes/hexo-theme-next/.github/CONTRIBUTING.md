@@ -2,5 +2,9 @@ Before submitting an issue, please search for the issue [here](https://github.co
 
 Also, you can search for answers on the [NexT Documentation Site](http://theme-next.iissnan.com/):
 
+<<<<<<< HEAD
 - [常见问题 - 中文文档](http://theme-next.iissnan.com/faqs.html)
+=======
+- [常见问题 - 中文文档](http://theme-next.iisnan.com/faqs.html)
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 - FAQs (Work in progress)

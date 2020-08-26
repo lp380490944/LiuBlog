@@ -16,6 +16,7 @@ rss:
 # Specify the date when the site was setup
 #since: 2015
 
+<<<<<<< HEAD
 # icon between year and author @Footer
 authoricon: heart
 
@@ -38,6 +39,9 @@ seo: false
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
 index_with_subtitle: false
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 # ---------------------------------------------------------------
@@ -47,17 +51,30 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
+<<<<<<< HEAD
   categories: /categories/
   about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404/
+=======
+  #categories: /categories
+  #about: /about
+  archives: /archives
+  tags: /tags
+  #commonweal: /404.html
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
+<<<<<<< HEAD
 #   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
+=======
+#   Key is the name of menu item and value is the name of FontAwsome icon. Key is case-senstive.
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
   enable: true
@@ -65,6 +82,7 @@ menu_icons:
   home: home
   about: user
   categories: th
+<<<<<<< HEAD
   schedule: calendar
   tags: tags
   archives: archive
@@ -72,6 +90,15 @@ menu_icons:
   commonweal: heartbeat
 
 
+=======
+  tags: tags
+  archives: archive
+  commonweal: heartbeat
+
+
+
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -80,19 +107,75 @@ menu_icons:
 scheme: Muse
 #scheme: Mist
 #scheme: Pisces
+<<<<<<< HEAD
 #scheme: Gemini
+=======
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal intalic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  host:
+
+  # Global font settings used on <body> element.
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Lato
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Fallback to `global` font settings.
+  headings:
+    external: true
+    family:
+
+  # Font settings for posts
+  # Fallback to `global` font settings.
+  posts:
+    external: true
+    family:
+
+  # Font settings for Logo
+  # Fallback to `global` font settings.
+  # The `size` option use `px` as unit
+  logo:
+    external: true
+    family:
+    size:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family:
+
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
 
+<<<<<<< HEAD
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -122,12 +205,32 @@ social_icons:
 #links_layout: inline
 #links:
   #Title: http://example.com/
+=======
+
+# Social Links Icons
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
+#   When an globe mask icon presenting up means that the item has no mapping icon.
+social_icons:
+  enable: true
+  # Icon Mappings.
+  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # Table Of Contents in the Sidebar
 toc:
   enable: true
@@ -135,8 +238,11 @@ toc:
   # Automatically add list number to toc.
   number: true
 
+<<<<<<< HEAD
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -144,6 +250,10 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
@@ -153,12 +263,17 @@ sidebar:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
+<<<<<<< HEAD
   #  - remove  Totally remove sidebar including sidebar toggle.
+=======
+  #  - remove  Totally remove sidebar including sidebar toggler.
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   display: post
   #display: always
   #display: hide
   #display: remove
 
+<<<<<<< HEAD
   # Sidebar offset from top menubar in pixels.
   offset: 12
   offset_float: 12
@@ -224,18 +339,30 @@ post_copyright:
   enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+=======
+
+# Blogrolls
+#links_title: Links
+#links_layout: block
+#links_layout: inline
+#links:
+  #Title: http://example.com/
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
 
+<<<<<<< HEAD
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # Custom Logo.
 # !!Only available for Default Scheme currently.
 # Options:
@@ -245,6 +372,10 @@ custom_logo:
   enabled: false
   image:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # Code Highlight theme
 # Available value:
 #    normal | night | night eighties | night blue | night bright
@@ -252,6 +383,7 @@ custom_logo:
 highlight_theme: normal
 
 
+<<<<<<< HEAD
 # ---------------------------------------------------------------
 # Font Settings
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
@@ -297,6 +429,26 @@ font:
     external: true
     family:
     size:
+=======
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: true
+
+
+# Automatically Excerpt. Not recommand.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: false
+  length: 150
+
+
+# Wechat Subscriber
+#wechat_subscriber:
+  #enabled: true
+  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
+  #description: ex. subscribe to my blog by scanning my public wechat account
+
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 # ---------------------------------------------------------------
@@ -306,11 +458,16 @@ font:
 # MathJax Support
 mathjax:
   enable: false
+<<<<<<< HEAD
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
+=======
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Swiftype Search API Key
 #swiftype_key:
@@ -322,6 +479,7 @@ han: false
 #duoshuo_shortname:
 
 # Disqus
+<<<<<<< HEAD
 disqus:
   enable: false
   shortname:
@@ -343,17 +501,26 @@ changyan:
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
+=======
+#disqus_shortname:
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Baidu Share
 # Available value:
 #    button | slide
+<<<<<<< HEAD
 # Warning: Baidu Share does not support https.
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 #baidushare:
 ##  type: button
 
 # Share
 #jiathis:
+<<<<<<< HEAD
 # Warning: JiaThis does not support https.
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 #add_this_id:
 
 # Share
@@ -363,6 +530,7 @@ changyan:
 # See: https://www.google.com/webmasters/
 #google_site_verification:
 
+<<<<<<< HEAD
 # Google Analytics
 #google_analytics:
 
@@ -376,6 +544,15 @@ changyan:
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
+=======
+
+# Google Analytics
+#google_analytics:
+
+# CNZZ count
+#cnzz_siteid:
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
@@ -396,6 +573,7 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
+<<<<<<< HEAD
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
@@ -421,6 +599,8 @@ rating:
   id:     #<app_id>
   color:  fc6423
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
@@ -447,6 +627,7 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
+<<<<<<< HEAD
 
 # Tencent analytics ID
 # tencent_analytics:
@@ -529,6 +710,14 @@ tabs:
     tabs: false
     labels: true
   border_radius: 0
+=======
+# Tencent analytics ID
+# tencent_analytics:
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: false
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 #! ---------------------------------------------------------------
@@ -542,6 +731,7 @@ use_motion: true
 # Fancybox
 fancybox: true
 
+<<<<<<< HEAD
 # Progress bar in the top during page loading.
 pace: false
 # Themes list:
@@ -577,26 +767,39 @@ canvas_sphere: false
 # Only fit scheme Pisces
 # Canvas-ribbon
 canvas_ribbon: false
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
 #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
+<<<<<<< HEAD
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: lib
+=======
+vendors:
+  # Internal path prefix. Please do not edit it.
+  _internal: vendors
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   # Internal version: 2.1.3
   jquery:
 
   # Internal version: 2.1.5
+<<<<<<< HEAD
   # See: http://fancyapps.com/fancybox/
+=======
+  # http://fancyapps.com/fancybox/
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   fancybox:
   fancybox_css:
 
   # Internal version: 1.0.6
+<<<<<<< HEAD
   # See: https://github.com/ftlabs/fastclick
   fastclick:
 
@@ -660,6 +863,31 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
+=======
+  # https://github.com/ftlabs/fastclick
+  fastclick:
+
+  # Internal version: 1.9.7
+  # https://github.com/tuupola/jquery_lazyload
+  lazyload:
+
+  # Internal version: 1.2.1
+  # http://VelocityJS.org
+  velocity:
+
+  # Internal version: 1.2.1
+  # http://VelocityJS.org
+  velocity_ui:
+
+  # Internal version: 0.7.9
+  # https://faisalman.github.io/ua-parser-js/
+  ua_parser:
+
+  # Internal version: 4.4.0
+  # http://fontawesome.io/
+  fontawesome:
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 # Assets
 css: css
@@ -667,4 +895,8 @@ js: js
 images: images
 
 # Theme version
+<<<<<<< HEAD
 version: 5.1.2
+=======
+version: 5.0.1
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

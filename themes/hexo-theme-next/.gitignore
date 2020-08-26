@@ -1,6 +1,7 @@
 .DS_Store
 .idea/
 *.log
+<<<<<<< HEAD
 *.iml
 node_modules/
 
@@ -16,3 +17,16 @@ source/lib/ua-parser-js/*
 
 source/lib/Han/*
 !source/lib/Han/dist/
+=======
+node_modules/
+
+# Ignore unused verdors' files
+source/vendors/fancybox/*
+!source/vendors/fancybox/source/
+
+source/vendors/font-awesome/less/
+source/vendors/font-awesome/scss/
+
+source/vendors/ua-parser-js/*
+!source/vendors/ua-parser-js/dist/
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

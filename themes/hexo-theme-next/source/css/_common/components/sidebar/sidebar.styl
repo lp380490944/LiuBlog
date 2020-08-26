@@ -17,12 +17,20 @@
   }
 
   +tablet() {
+<<<<<<< HEAD
     hide() if not hexo-config('sidebar.onmobile');
   }
   +mobile() {
     hide() if not hexo-config('sidebar.onmobile');
   }
 
+=======
+    display: none !important;
+  }
+  +mobile() {
+    display: none !important;
+  }
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 }
 
 .sidebar-inner {
@@ -37,7 +45,14 @@
 @import "site-state";
 @import "sidebar-feed-link";
 @import "sidebar-author-links";
+<<<<<<< HEAD
 @import "sidebar-blogroll";
 @import "sidebar-nav";
 @import "sidebar-toc";
 @import "sidebar-dimmer" if hexo-config('sidebar.onmobile');
+=======
+@import "sidebar-blogroll.styl";
+@import "sidebar-nav";
+@import "sidebar-toc";
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

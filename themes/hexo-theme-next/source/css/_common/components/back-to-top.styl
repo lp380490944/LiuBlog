@@ -5,7 +5,11 @@
   right: $b2t-position-right;
   z-index: $zindex-5;
   padding: 0 6px;
+<<<<<<< HEAD
   width: hexo-config('sidebar.scrollpercent') ? initial : 24px;
+=======
+  width: 25px;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   background: $b2t-bg-color;
   font-size: $b2t-font-size;
   opacity: $b2t-opacity;
@@ -16,6 +20,7 @@
   transition-property: bottom;
   the-transition();
 
+<<<<<<< HEAD
   +tablet() {
     fixbutton() if hexo-config('sidebar.onmobile');
     hide() if not hexo-config('sidebar.onmobile');
@@ -23,6 +28,13 @@
   +mobile() {
     fixbutton() if hexo-config('sidebar.onmobile');
     hide() if not hexo-config('sidebar.onmobile');
+=======
+  +mobile() {
+    display: none;
+  }
+  +tablet() {
+    display: none;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 
   &.back-to-top-on {

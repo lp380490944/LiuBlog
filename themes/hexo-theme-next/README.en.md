@@ -37,6 +37,7 @@
 ## Update
 
 ```shell
+<<<<<<< HEAD
 cd themes/next
 git pull
 ```
@@ -63,6 +64,12 @@ With this feature, now you can put all your configurations into one place (`sour
 2. Create an file named `next.yml` in site's `source/_data` directory (create `_data` directory if it did not exist)
 3. Copy NexT theme options both in site's `_config.yml` and theme's `_config.yml` into `next.yml`.
 
+=======
+cd theme/next
+git pull
+```
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 ## Features
 
 ### Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.
@@ -76,6 +83,10 @@ language: en
 # language: zh-hk
 # language: zh-tw
 # language: ru
+<<<<<<< HEAD
+=======
+# language: ru
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 # language: de
 ```
 
@@ -100,7 +111,13 @@ duoshuo:
 OR
 
 ```yml
+<<<<<<< HEAD
 disqus_shortname: your-disqus-shortname
+=======
+disqus:
+   enable: true
+   shortname: your-disqus-shortname
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 ```
 
 ### Tags page.
@@ -123,7 +140,11 @@ disqus_shortname: your-disqus-shortname
           home: /
           archives: /archives
           tags: /tags
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 ### Categories page.
 
 > Add a categories page contains all categories in your site.
@@ -156,7 +177,11 @@ social:
   Weibo: your-weibo-url
   DouBan: your-douban-url
   ZhiHu: your-zhihu-url
+<<<<<<< HEAD
 ```
+=======
+``` 
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 ### Feed link.
 

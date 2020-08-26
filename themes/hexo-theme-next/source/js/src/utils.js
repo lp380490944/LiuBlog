@@ -5,6 +5,7 @@ NexT.utils = NexT.$u = {
    * Wrap images with fancybox support.
    */
   wrapImageWithFancyBox: function () {
+<<<<<<< HEAD
     $('.content img')
       .not('[hidden]')
       .not('.group-picture img, .post-gallery img')
@@ -28,6 +29,26 @@ NexT.utils = NexT.$u = {
           $imageWrapLink.attr('title', imageTitle);
         }
       });
+=======
+    $('.content img').not('.group-picture img').each(function () {
+
+      var $image = $(this);
+      var imageTitle = $image.attr('title');
+      var $imageWrapLink = $image.parent('a');
+
+      if ($imageWrapLink.size() < 1) {
+        $imageWrapLink = $image.wrap('<a href="' + this.getAttribute('src') + '"></a>').parent('a');
+      }
+
+      $imageWrapLink.addClass('fancybox');
+      $imageWrapLink.attr('rel', 'group');
+
+      if (imageTitle) {
+        $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
+        $imageWrapLink.attr('title', imageTitle); //make sure img title tag will show correctly in fancybox
+      }
+    });
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
     $('.fancybox').fancybox({
       helpers: {
@@ -40,6 +61,7 @@ NexT.utils = NexT.$u = {
 
   lazyLoadPostsImages: function () {
     $('#posts').find('img').lazyload({
+<<<<<<< HEAD
       //placeholder: '/images/loading.gif',
       effect: 'fadeIn',
       threshold : 0
@@ -91,6 +113,10 @@ NexT.utils = NexT.$u = {
         $('.search-popup-overlay').remove();
         $('body').css('overflow', '');
       }
+=======
+      placeholder: '/images/loading.gif',
+      effect: 'fadeIn'
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     });
   },
 
@@ -100,6 +126,7 @@ NexT.utils = NexT.$u = {
 
     $(window).on('scroll', function () {
       $top.toggleClass('back-to-top-on', window.pageYOffset > THRESHOLD);
+<<<<<<< HEAD
 
       var scrollTop = $(window).scrollTop();
       var docHeight = $('#content').height();
@@ -109,6 +136,8 @@ NexT.utils = NexT.$u = {
       var scrollPercentRounded = Math.round(scrollPercent*100);
       var scrollPercentMaxed = (scrollPercentRounded > 100) ? 100 : scrollPercentRounded;
       $('#scrollpercent>span').html(scrollPercentMaxed);
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     });
 
     $top.on('click', function () {
@@ -162,8 +191,11 @@ NexT.utils = NexT.$u = {
         wrap.style.marginBottom = '20px';
         wrap.style.width = '100%';
         wrap.style.paddingTop = videoRatio + '%';
+<<<<<<< HEAD
         // Fix for appear inside tabs tag.
         (wrap.style.paddingTop === '') && (wrap.style.paddingTop = '50%');
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
         // Add the iframe inside our newly created <div>
         var iframeParent = iframe.parentNode;
@@ -203,7 +235,11 @@ NexT.utils = NexT.$u = {
   addActiveClassToMenuItem: function () {
     var path = window.location.pathname;
     path = path === '/' ? path : path.substring(0, path.length - 1);
+<<<<<<< HEAD
     $('.menu-item a[href^="' + path + '"]:first').parent().addClass('menu-item-active');
+=======
+    $('.menu-item a[href="' + path + '"]').parent().addClass('menu-item-active');
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   },
 
   hasMobileUA: function () {
@@ -237,7 +273,11 @@ NexT.utils = NexT.$u = {
   },
 
   displaySidebar: function () {
+<<<<<<< HEAD
     if (!this.isDesktop() || this.isPisces() || this.isGemini()) {
+=======
+    if (!this.isDesktop() || this.isPisces()) {
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
       return;
     }
     $('.sidebar-toggle').trigger('click');
@@ -251,10 +291,13 @@ NexT.utils = NexT.$u = {
     return CONFIG.scheme === 'Pisces';
   },
 
+<<<<<<< HEAD
   isGemini: function () {
     return CONFIG.scheme === 'Gemini';
   },
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   getScrollbarWidth: function () {
     var $div = $('<div />').addClass('scrollbar-measure').prependTo('body');
     var div = $div[0];
@@ -271,6 +314,10 @@ NexT.utils = NexT.$u = {
    * @returns {Boolean}
    */
   needAffix: function () {
+<<<<<<< HEAD
     return this.isPisces() || this.isGemini();
+=======
+    return this.isPisces();
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 };

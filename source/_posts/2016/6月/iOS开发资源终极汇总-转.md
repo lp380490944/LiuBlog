@@ -12,7 +12,11 @@ tags:
 - UI下拉刷新
 
 - EGOTableViewPullRefresh - 最早的下拉刷新控件。
+<<<<<<< HEAD
 - SVPullToRefresh - 下拉刷新控件。
+=======
+SVPullToRefresh - 下拉刷新控件。
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 MJRefresh - 仅需一行代码就可以为UITableView或者CollectionView加上下拉刷新或者上拉刷新功能。可以自定义上下拉刷新的文字说明。具体使用看“使用方法”。 （国人写）
 XHRefreshControl - XHRefreshControl 是一款高扩展性、低耦合度的下拉刷新、上提加载更多的组件。（国人写）
 CBStoreHouseRefreshControl - 一个效果很酷炫的下拉刷新控件。
@@ -32,9 +36,12 @@ Replace-iOS - Replace-iOS 让人眼前一亮的下拉刷新（iOS）。
 Animations - 封装了一下，使用的时候只要两行代码。一些动画的飞机稿，都是一些单独分离出来的用于测试的子动画，现在统一归类一下。
 PullToBounce - 下拉刷新的动画 for UIScrollView。
 　　模糊效果
+<<<<<<< HEAD
 　　
 <!--more-->
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 FXBlurView - 是一个UIView子类，支持iOS5.0以上版本，支持静态、动态模糊效果，继承与UIView的模糊特效。
 VVBlurPresentation -很简单易用的在原来viewconntroller基础上做模糊，然后present新的viewcontroller的。

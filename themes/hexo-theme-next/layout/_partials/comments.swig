@@ -4,6 +4,7 @@
       <div class="ds-thread" data-thread-key="{{ page.path }}"
            data-title="{{ page.title }}" data-url="{{ page.permalink }}">
       </div>
+<<<<<<< HEAD
     {% elseif theme.facebook_sdk.enable and theme.facebook_comments_plugin.enable %}
       <div class="fb-comments"
            data-href="{{ page.permalink }}"
@@ -28,6 +29,15 @@
       <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
     {% elseif theme.changyan.appid and theme.changyan.appkey %}
       <div id="SOHUCS"></div>
+=======
+    {% elseif theme.disqus_shortname %}
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     {% endif %}
   </div>
 {% endif %}

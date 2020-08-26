@@ -20,12 +20,16 @@ sidebar:
 post:
   sticky: Sticky
   posted: Diposting di
+<<<<<<< HEAD
   modified: Updated at
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   in: Di
   read_more: Baca lebih
   untitled: Tidak ada title
   toc_empty: Posting ini tidak memiliki Daftar Isi
   visitors: Pengunjung
+<<<<<<< HEAD
   wordcount: Words count in article
   min2read: Reading time
   copyright:
@@ -34,6 +38,8 @@ post:
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 page:
   totally: Total
@@ -78,4 +84,7 @@ keep_on: Terus Posting.
 symbol:
   comma: ', '
   period: '. '
+<<<<<<< HEAD
   colon: ':'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

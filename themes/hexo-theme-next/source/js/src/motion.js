@@ -79,21 +79,32 @@ $(document).ready(function () {
 
   var SIDEBAR_WIDTH = '320px';
   var SIDEBAR_DISPLAY_DURATION = 200;
+<<<<<<< HEAD
   var xPos, yPos;
 
   var sidebarToggleMotion = {
     toggleEl: $('.sidebar-toggle'),
     dimmerEl: $('#sidebar-dimmer'),
+=======
+
+  var sidebarToggleMotion = {
+    toggleEl: $('.sidebar-toggle'),
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     sidebarEl: $('.sidebar'),
     isSidebarVisible: false,
     init: function () {
       this.toggleEl.on('click', this.clickHandler.bind(this));
+<<<<<<< HEAD
       this.dimmerEl.on('click', this.clickHandler.bind(this));
       this.toggleEl.on('mouseenter', this.mouseEnterHandler.bind(this));
       this.toggleEl.on('mouseleave', this.mouseLeaveHandler.bind(this));
       this.sidebarEl.on('touchstart', this.touchstartHandler.bind(this));
       this.sidebarEl.on('touchend', this.touchendHandler.bind(this));
       this.sidebarEl.on('touchmove', function(e){e.preventDefault();});
+=======
+      this.toggleEl.on('mouseenter', this.mouseEnterHandler.bind(this));
+      this.toggleEl.on('mouseleave', this.mouseLeaveHandler.bind(this));
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
       $(document)
         .on('sidebar.isShowing', function () {
@@ -121,6 +132,7 @@ $(document).ready(function () {
       }
       sidebarToggleLines.init();
     },
+<<<<<<< HEAD
     touchstartHandler: function(e) {
       xPos = e.originalEvent.touches[0].clientX;
       yPos = e.originalEvent.touches[0].clientY;
@@ -132,6 +144,8 @@ $(document).ready(function () {
           this.clickHandler();
       }
     },
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
     showSidebar: function () {
       var self = this;
 

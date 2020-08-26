@@ -19,14 +19,19 @@ sidebar:
   toc: Inhaltsverzeichnis
 
 post:
+<<<<<<< HEAD
   created: Post created
   sticky: Sticky
   posted: Veröffentlicht am
   modified: Updated at
+=======
+  posted: Veröffentlicht am
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   in: in
   read_more: Weiterlesen
   untitled: Unbenannt
   toc_empty: Dieser Artikel hat kein Inhaltsverzeichnis
+<<<<<<< HEAD
   visitors: Visitors
   wordcount: Words count in article
   min2read: Reading time
@@ -36,6 +41,8 @@ post:
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 page:
   totally: Gesamt
@@ -80,4 +87,7 @@ keep_on: Bleib dran.
 symbol:
   comma: '. '
   period: ', '
+<<<<<<< HEAD
   colon: ':'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

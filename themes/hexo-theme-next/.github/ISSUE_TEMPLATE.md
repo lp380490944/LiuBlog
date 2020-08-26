@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- ATTENTION!
 IF YOU DON'T FILL OUT THE FOLLOWING INFORMATION WE MIGHT CLOSE YOUR ISSUE WITHOUT INVESTIGATING.
 如果你不填充下面的内容，我们可能会直接关闭你的 issue。
@@ -45,3 +46,34 @@ Link(s) to source code or any usefull link(s): N/A
 ```
 
 ### Other Information <!-- (Like Browser, System, Screenshots) -->
+=======
+
+### Expected behavior (预期行为)
+
+
+### Actual behavior (实际行为)
+
+
+### Steps to reproduce the behavior (重现步骤)
+
+
+### NexT Informations
+
+Add the  ✔  sign before an item which is affected by this behavior.
+
+NexT Version:
+
+  -  Master
+  -  Latest Release
+  -  Old version - 
+
+NexT Scheme:
+  -  All schemes
+  -  Muse
+  -  Mist
+  -  Pisces
+
+### Other Informations (Like Browser, System, Screenshots)
+
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

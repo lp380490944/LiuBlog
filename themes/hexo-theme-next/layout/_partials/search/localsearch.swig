@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="popup search-popup local-search-popup">
   <div class="local-search-header clearfix">
     <span class="search-icon">
@@ -14,3 +15,11 @@
   </div>
   <div id="local-search-result"></div>
 </div>
+=======
+<div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

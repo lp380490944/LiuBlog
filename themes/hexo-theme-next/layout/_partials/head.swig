@@ -1,4 +1,5 @@
 <meta charset="UTF-8"/>
+<<<<<<< HEAD
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
@@ -25,6 +26,10 @@
   {% endif %}
   <link rel="stylesheet" media="all" href="{{ Han_uri }}">
 {% endif %}
+=======
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 
 {# #238, Disable Baidu tranformation #}
@@ -37,11 +42,14 @@
 {% endif %}
 
 
+<<<<<<< HEAD
 {% if theme.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ theme.yandex_site_verification }}" />
 {% endif %}
 
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 {% if theme.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}" />
 {% endif %}
@@ -62,7 +70,11 @@
 
 {% include "./head/external-fonts.swig" %}
 
+<<<<<<< HEAD
 {% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.6.2') %}
+=======
+{% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.4.0') %}
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 {% if theme.vendors.fontawesome %}
   {% set font_awesome_uri = theme.vendors.fontawesome %}
 {% endif %}
@@ -109,6 +121,7 @@
 
 
 {# Export some HEXO Configurations to Front-End #}
+<<<<<<< HEAD
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
@@ -138,3 +151,18 @@
 {% endif %}
 
 {% include 'head/custom-head.swig' %}
+=======
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: '{{ theme.scheme }}',
+    sidebar: {{ theme.sidebar | json_encode }},
+    fancybox: {{ theme.fancybox }},
+    motion: {{ theme.use_motion }},
+    duoshuo: {
+      userId: {{ theme.duoshuo_info.user_id | default() }},
+      author: '{{ theme.duoshuo_info.admin_nickname | default(__('author'))}}'
+    }
+  };
+</script>
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

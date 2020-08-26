@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="site-brand-wrapper">
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
     {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
@@ -34,6 +35,38 @@
 
 <nav class="site-nav">
   {% set hasSearch = theme.swiftype_key || theme.algolia_search.enable || theme.tinysou_Key || theme.local_search.enable %}
+=======
+<div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
+  {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
+    <div class="site-meta-headline">
+      <a>
+        <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
+             alt="{{ config.title }}"/>
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="custom-logo-site-title">
+    <a href="{{ config.root }}"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">{{ config.title }}</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">{{ config.subtitle }}</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  {% set hasSearch = theme.swiftype_key || theme.tinysou_Key || config.search %}
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
   {% if theme.menu %}
     <ul id="menu" class="menu">
@@ -44,7 +77,11 @@
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{theme.menu_icons[itemName] | default('question-circle') | lower }}"></i> <br />
             {% endif %}
+<<<<<<< HEAD
             {{ __('menu.' + name) }}
+=======
+            {{ __('menu.' + itemName) }}
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
           </a>
         </li>
       {% endfor %}
@@ -52,9 +89,15 @@
       {% if hasSearch %}
         <li class="menu-item menu-item-search">
           {% if theme.swiftype_key %}
+<<<<<<< HEAD
             <a href="javascript:;" class="st-search-show-outputs">
           {% elseif theme.local_search.enable || theme.algolia_search.enable %}
             <a href="javascript:;" class="popup-trigger">
+=======
+            <a href="#" class="st-search-show-outputs">
+          {% elseif config.search %}
+            <a href="#" class="popup-trigger">
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
           {% endif %}
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -73,4 +116,7 @@
   {% endif %}
 </nav>
 
+<<<<<<< HEAD
 {% include '../_custom/header.swig' %}
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

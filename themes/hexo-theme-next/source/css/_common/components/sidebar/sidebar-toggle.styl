@@ -1,9 +1,16 @@
 .sidebar-toggle {
   position: fixed;
+<<<<<<< HEAD
   right: $b2t-position-right;
   bottom: 45px;
   width: 14px;
   height: 14px;
+=======
+  right: 50px;
+  bottom: 45px;
+  width: 15px;
+  height: 15px;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   padding: 5px;
   background: $black-deep;
   line-height: 0;
@@ -12,12 +19,19 @@
   -webkit-transform: translateZ(0);
 
   +tablet() {
+<<<<<<< HEAD
     fixbutton() if hexo-config('sidebar.onmobile');
     hide() if not hexo-config('sidebar.onmobile');
   }
   +mobile() {
     fixbutton() if hexo-config('sidebar.onmobile');
     hide() if not hexo-config('sidebar.onmobile');
+=======
+    display: none;
+  }
+  +mobile() {
+    display: none;
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   }
 }
 

@@ -2,7 +2,10 @@ title:
   archive: 归档
   category: 分类
   tag: 标签
+<<<<<<< HEAD
   schedule: 日程表
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 author: 博主
 
@@ -13,15 +16,22 @@ menu:
   tags: 标签
   about: 关于
   search: 搜索
+<<<<<<< HEAD
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益404
 
+=======
+  commonweal: 公益404
+
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 sidebar:
   overview: 站点概览
   toc: 文章目录
 
 post:
+<<<<<<< HEAD
   created: 创建于
   modified: 更新于
   sticky: 置顶
@@ -39,6 +49,15 @@ post:
     license_title: 版权声明
     license_content: '本博客所有文章除特别声明外，均采用
       <a href="%s" rel="external nofollow" target="_blank">%s</a> 许可协议。转载请注明出处！'
+=======
+  sticky: 置顶
+  posted: 发表于
+  in: 分类于
+  visitors: 阅读次数
+  read_more: 阅读全文
+  untitled: 未命名
+  toc_empty: 此文章未包含目录
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 page:
   totally: 共有
@@ -48,6 +67,10 @@ footer:
   powered: "由 %s 强力驱动"
   theme: 主题
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 counter:
   tag_cloud:
     zero: 暂无标签
@@ -70,9 +93,12 @@ state:
   tags: 标签
   categories: 分类
 
+<<<<<<< HEAD
 search:
   placeholder: 搜索...
 
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 cheers:
   um: 嗯..
   ok: OK
@@ -86,4 +112,7 @@ keep_on: 继续努力。
 symbol:
   comma: '， '
   period: '。 '
+<<<<<<< HEAD
   colon: '：'
+=======
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec

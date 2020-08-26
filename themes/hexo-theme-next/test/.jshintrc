@@ -4,6 +4,10 @@
   "eqeqeq": true,
   "undef": true,
   "newcap": true,
+<<<<<<< HEAD
+=======
+  "undef": true,
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
   "unused": true,
   "laxcomma": false,
   "asi": false,

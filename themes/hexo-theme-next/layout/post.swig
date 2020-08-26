@@ -3,7 +3,11 @@
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
 
+<<<<<<< HEAD
 {% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
+=======
+{% block title %} {{ page.title }} | {{ config.title }} {% endblock %}
+>>>>>>> 2fd209527d026c2001674f7c4647850c907649ec
 
 {% block page_class %}page-post-detail{% endblock %}
 
