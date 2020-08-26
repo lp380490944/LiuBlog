@@ -1,0 +1,34 @@
+<% if (config.social) { %>
+<hr class="panel-cover__divider">
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+    <% if (config.social.github) { %>
+      <!-- Github -->
+      <li class="navigation__item">
+        <a href="https://github.com/<%= config.social.github %>" title="<%= config.author %>'s GitHub">
+          <i class='fa fa-github'></i>
+          <span class="label">GitHub</span>
+        </a>
+      </li>
+    <% } %>
+    <% if (config.social.twitter) { %>
+      <!-- Twitter -->
+      <li class="navigation__item">
+        <a href="https://twitter.com/<%= config.social.twitter %>" title="<%= config.author %>'s Twitter">
+          <i class='fa fa-twitter'></i>
+          <span class="label">Twitter</span>
+        </a>
+      </li>
+    <% } %>
+    <% if (config.social.telegram) { %>
+      <!-- Telegram -->
+      <li class="navigation__item">
+        <a href="https://telegram.me/<%= config.social.telegram %>" title="<%= config.author %>'s Telegram">
+          <i class='fa fa-paper-plane'></i>
+          <span class="label">Telegram</span>
+        </a>
+      </li>
+    <% } %>
+  </ul>
+</nav>
+<% } %>

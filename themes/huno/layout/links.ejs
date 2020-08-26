@@ -1,0 +1,14 @@
+<% if (config.links && config.links.length) { %>
+<h1><%= __('links') %></h1>
+<div class="linkslist">
+    <% config.links.forEach(function(item) { %>
+    <a href="<%= item.url %>" target="_blank" title="<%= item.info %>">
+        <figure>
+            <img src="<% if (item.img) {%><%= item.img %><% } else { %>/images/default.jpg<% } %>">
+            <figcaption><%= item.name %></figcaption>
+            <p><%= item.info %></p>
+        </figure>
+    </a>
+    <% }); %>
+</div>
+<% } %>

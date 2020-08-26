@@ -1,0 +1,25 @@
+# Header
+menu:
+  博客: /#blog
+  歸檔: /archive/
+  友鏈: /links/
+  關於: /about/
+  訂閱: /feed.xml
+
+# Site favicon
+favicon: /images/favicon.ico
+
+# Site logo
+logo: /images/avatar.png
+
+# Enable Mathjax
+mathjax: true
+
+# Enable fancybox
+fancybox: true
+
+# Enable githubRepoWidget
+github_repo_widget: true
+
+# Date / Time format
+date_time_format: YYYY-MM-DD HH:mm:ss
